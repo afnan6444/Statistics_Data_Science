@@ -1,0 +1,26 @@
+HYPOTHESIS TEST RESULTS
+=======================
+
+1. Normality Test (Shapiro-Wilk on Total_Sales)
+-----------------------------------------------
+Statistic: 0.8989
+p-value: 0.00000126
+Result: Reject H0 → Total_Sales is NOT normally distributed.
+
+2. T-test (North vs South Sales)
+--------------------------------
+t-statistic: 0.130
+p-value: 0.8972
+Result: Fail to reject H0 → No significant difference in average sales between North and South regions.
+
+3. ANOVA (North, South, East Sales)
+-----------------------------------
+F-statistic: 0.0509
+p-value: 0.9504
+Result: Fail to reject H0 → No significant difference in sales across North, South, and East regions.
+
+Summary:
+--------
+- Regional sales differences are not statistically significant.
+- Sales distribution is not normal (skewed by high-value transactions).
+- Business implication: Regional strategies may not need differentiation; focus on product-level drivers (Quantity and Price).
